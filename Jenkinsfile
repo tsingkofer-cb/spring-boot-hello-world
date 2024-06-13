@@ -17,9 +17,10 @@ pipeline {
     stage('wrapper'){
       steps {
         script {
-          build.wrap{
-            sleep 600
-          }
+          build.summary()
+         // build.wrap{
+         //   sleep 600
+         // }
         }
       }
     }
