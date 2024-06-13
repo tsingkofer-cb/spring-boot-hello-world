@@ -18,7 +18,7 @@ pipeline {
       steps {
         script {
           build.wrap{
-            sleep 600
+            sleep 120
           }
         }
       }
